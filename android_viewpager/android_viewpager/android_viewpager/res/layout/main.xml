@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </android.support.v4.view.PagerTabStrip>
+        
+    </android.support.v4.view.ViewPager>
+    <!-- <TextView 
+        android:id="@+id/txt_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_share_show"
+        android:textSize="24sp"
+        android:textColor="#212121"
+        /> -->
+    <!-- <Button
+        android:id="@+id/btn_share_sina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享至新浪微博"
+        android:textSize="24sp"
+        /> -->
+
+</LinearLayout>

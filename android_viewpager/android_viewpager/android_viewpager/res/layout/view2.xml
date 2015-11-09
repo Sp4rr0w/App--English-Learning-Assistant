@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login" >
+
+    <Button
+        android:id="@+id/view2_bt1"
+        android:text="@string/view2_one"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="@string/view2_two"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        
+        />
+    <Button
+        android:text="@string/view2_three"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        />
+
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_four" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_five" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_six" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_seven" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_eight" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_nine" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view2_ten" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">英语学习助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">setting</string>
+	<string name="one">☆	 LIST-1 初入单词境地</string>
+    <string name="two">☆	 LIST-2 单词伴我行</string>
+    <string name="three">☆	 LIST-3 你的单词 </string>
+    <string name="four">☆	 LIST-4 加油啊朋友</string>
+    <string name="five">☆	 LIST-5 突然就第五单元了</string>
+    <string name="six">☆	 LIST-6 吃饭睡觉背单词</string>
+    <string name="seven">☆	 LIST-7 滚开，我要背单词</string>
+    <string name="eight">☆	 LIST-8 诶，继续</string>
+    <string name="nine">☆	 LIST-9 不管怎样，单词还是要背的</string>
+    <string name="ten">☆	 LIST-10 还有谁！！！</string>
+    
+	<string name="view2_one">☆	 UNIT-1 初入课文境地！</string>
+	<string name="view2_two">☆	 UNIT-2 课文伴我行</string>
+    <string name="view2_three">☆	 UNIT-3 你的课文 </string>
+    <string name="view2_four">☆	 UNIT-4 加油啊朋友</string>
+    <string name="view2_five">☆	 UNIT-5 突然就第五单元了</string>
+    <string name="view2_six">☆	 UNIT-6 吃饭睡觉看课文</string>
+    <string name="view2_seven">☆	 UNIT-7 滚开，我要看课文</string>
+    <string name="view2_eight">☆	 UNIT-8 诶，继续</string>
+    <string name="view2_nine">☆	 UNIT-9 不管怎样，课文还是要看的</string>
+    <string name="view2_ten">☆	 UNIT-10 还有谁！！！</string>
+    
+    <string name="danci1">☆	 ruler	:	n.	直尺 </string>
+    <string name="danci2">☆	 pen	:	n.	钢笔 </string>
+    <string name="danci3">☆	 pencil :	n.	铅笔 </string>
+    <string name="danci4">☆	 eraser	:	n.	橡皮 </string>
+    <string name="danci5">☆	 crayon	:	n.	蜡笔</string>
+    <string name="danci6">☆	 bag	:	n.	书包 </string>
+    <string name="danci7">☆	 school	:	n.	学校 </string>
+    <string name="danci8">☆	 head	:	n.	头 </string>
+    <string name="danci9">☆	 nose	:	n.	鼻子 </string>
+    <string name="danci10">☆	 face	:	n.	脸 </string>
+ 	<string name="signatrue">☆   英语学习助手1.0 \n© 2015 Z0fr3y All Rights Reserved</string>
+ 	<string name="qidai">☆ 敬请期待......</string>
+ 	<string name="fenxiang">☆分享app~</string>
+</resources>

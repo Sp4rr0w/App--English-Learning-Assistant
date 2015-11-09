@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/login">
+    
+    
+
+    <Button
+        android:id="@+id/Button2"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci1"
+
+         />
+
+    <Button
+        android:id="@+id/Button3"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci2"
+        android:layout_marginTop="0px"
+         />
+
+    <Button
+        android:id="@+id/Button4"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci3"
+        android:layout_marginTop="0px"
+         />
+
+    <Button
+        android:id="@+id/Button5"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci4"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/Button6"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci5"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/Button7"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci6"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/Button8"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci7"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/Button9"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci8"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/Button10"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci9"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/Button11"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/danci10"
+        android:layout_marginTop="0px"
+         />
+    
+
+
+    <!-- <Button
+        android:id="@+id/button1"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_vertical"
+        android:text="返回" /> -->
+    <Button
+        android:id="@+id/share_sina"
+        android:background="@drawable/gray_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:layout_gravity="right|bottom"
+        android:text="@string/fenxiang" />
+
+</LinearLayout>
