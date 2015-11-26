@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -145,6 +146,19 @@ public class MainActivity extends Activity implements OnPageChangeListener{
 		Toast.makeText(this, "这是第"+(arg0+1)+"个界面", Toast.LENGTH_SHORT).show();
 	}
 
-
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		//soundpool.play(soundmap.get(5), 1, 1, 0, 0, 1);		//播放按键音
+		//return true;
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+		     Toast.makeText(this, "后退键", Toast.LENGTH_SHORT).show();
+			
+		      return false;}
+		else if (keyCode == KeyEvent.KEYCODE_HOME) {
+		      Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show();
+		      return true;
+		    }
+		return super.onKeyDown(keyCode, event);
+	}
 
 }

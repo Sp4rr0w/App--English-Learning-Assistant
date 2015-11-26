@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:background="@drawable/login" >
     <TextView 
-        android:text="ruler"
+        android:text="eraser"
         android:paddingTop="50px"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         />
     <TextView 
         
-		android:text="@string/danci1"
+		android:text="@string/danci4"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:paddingTop="20px"
@@ -22,7 +22,7 @@
         android:gravity="center_horizontal"
         />
     <Button
-        android:id="@+id/ruler_fayin"
+        android:id="@+id/eraser_fayin"
         android:background="@drawable/gray_bg"
         android:layout_width="wrap_content"
         android:layout_gravity="center_vertical|center"

@@ -46,6 +46,19 @@
             android:name=".DanciFayin"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".DanciFayin2_pen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DanciFayin3_pencil"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".DanciFayin4_eraser"
+            android:label="@string/app_name" >
+        </activity>
+         
         <!-- <activity
             android:name="com.example.android_viewpager.MainActivity$CActivity"
             android:label="@string/app_name" >
