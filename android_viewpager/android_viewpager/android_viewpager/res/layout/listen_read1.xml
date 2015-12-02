@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/white_bg">
+
+
+    
+
+    
+
+    	
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textColor="@color/orange"
+        android:textSize="15sp"
+        android:text="          Louis got a new book. The book was about animals. Louis loved animals. The book had lots of pictures. It had pictures of dogs and cats. It had pictures of cows and pigs. It had pictures of chickens and rabbits. It had pictures of squirrels and birds. Louis looked at the pictures on the first page. Then he turned the page. He looked at the pictures on the second page. Then he turned the page again. The book had 30 pages in it. Louis looked at all the pictures on all the pages.
+                                                                                                                                                                                   路易斯得到一本新书。这是本关于动物的书。路易斯很喜欢动物。这本书里有很多图片。里面有各类狗和猫的图片。里面有各类牛和猪的图片。里面有各类鸡和兔子的图片。里面有各类松鼠和鸟的图片。路易斯看看第一页上的图片。然后他翻到下一页。他看看第二页上的图片。接着他翻到下一页。这本书有30页。路易斯看了所有页上的所有图片。"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView 
+        android:id="@+id/ting4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+    	 >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="180px"
+             >
+
+            
+
+            <ImageButton
+                android:id="@+id/ting1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/start" />
+            <ImageButton
+                android:id="@+id/ting2"
+                android:paddingLeft="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/stop" />
+
+        </TableRow>
+
+        
+    </TableLayout>
+
+<TextView
+    android:paddingTop="40px"
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/signatrue" />
+
+</LinearLayout>

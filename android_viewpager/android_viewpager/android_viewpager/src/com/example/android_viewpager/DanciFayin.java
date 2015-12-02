@@ -37,10 +37,7 @@ import android.widget.Toast;
 				soundpool = new SoundPool(2,
 						AudioManager.STREAM_SYSTEM, 0);	//创建一个SoundPool对象，该对象可以容纳5个音频流
 				soundmap.put(1, soundpool.load(this, R.raw.ruler, 1));
-				//soundmap.put(2, soundpool.load(this, R.raw.pen, 1));
-				//soundmap.put(3, soundpool.load(this, R.raw.pencil, 1));
-				//soundmap.put(4, soundpool.load(this, R.raw.eraser, 1));
-			
+				
 				
 				ruler.setOnClickListener(new OnClickListener() {
 					
@@ -49,44 +46,9 @@ import android.widget.Toast;
 						soundpool.play(soundmap.get(1), 1, 1, 0, 0, 1);	//播放指定的音频
 					}
 				});
-				/*//pen.setOnClickListener(new OnClickListener() {
-					
-					@Override
-					public void onClick(View v) {
-						soundpool.play(soundmap.get(2), 1, 1, 0, 0, 1);	//播放指定的音频
-					}
-				});
 				
-				//pencil.setOnClickListener(new OnClickListener() {
-					
-					@Override
-					public void onClick(View v) {
-						soundpool.play(soundmap.get(3), 1, 1, 0, 0, 1);	//播放指定的音频
-					}
-				});
-				//eraser.setOnClickListener(new OnClickListener() {
-	
-	@Override
-	public void onClick(View v) {
-		soundpool.play(soundmap.get(4), 1, 1, 0, 0, 1);	//播放指定的音频
-	}
-});*/
-
-				
-				/*bt1=(Button) findViewById(R.id.button1);
-				bt1.setOnClickListener(new OnClickListener() {
-					
-					@Override
-					public void onClick(View v) {
-						// TODO 自动生成的方法存根
-						Intent data=new Intent();//只是回传数据，不指定目标了。
-						data.putExtra("data", content);
-						setResult(2,data);//返回码是2
-						finish();
-					}
-				});*/
 }
-			@Override
+			/*@Override
 			public boolean onKeyDown(int keyCode, KeyEvent event) {
 				//soundpool.play(soundmap.get(5), 1, 1, 0, 0, 1);		
 				//return true;
@@ -103,6 +65,6 @@ import android.widget.Toast;
 				    }
 				return super.onKeyDown(keyCode, event);
 				//return true;
-			}
+			}*/
 			
 }

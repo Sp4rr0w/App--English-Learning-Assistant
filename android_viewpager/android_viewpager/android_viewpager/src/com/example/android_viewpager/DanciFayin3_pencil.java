@@ -87,7 +87,7 @@ import android.widget.Toast;
 					}
 				});*/
 }
-			@Override
+			/*@Override
 			public boolean onKeyDown(int keyCode, KeyEvent event) {
 				//soundpool.play(soundmap.get(5), 1, 1, 0, 0, 1);		//²¥·Å°´¼üÒô
 				//return true;
@@ -103,6 +103,6 @@ import android.widget.Toast;
 				      return true;
 				    }
 				return super.onKeyDown(keyCode, event);
-			}
+			}*/
 			
 }

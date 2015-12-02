@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="0.00"
+        android:text=" 
+2 
+Lesson Two 
+                                            
+Waiter:Can I help you?  
+                                                                                        
+Peter: Yes, please. I am hungry. 
+                                                                                        
+Waiter: Sir, What would you like to eat? 
+                                                                                        
+Peter: I like a cup of tea, a banana and some meat. 
+                                                                                        
+Waiter: Would you like some beaf? 
+                                                                                        
+Peter: No, thanks. 
+                                            
+Waiter: OK, here you are.                                            
+
+Peter: Thanks a lot.                                            
+
+Waiter: You are welcome."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:text="词汇 
+                                                    
+waiter [weitə] n. 服务员
+                                                                                        
+please [pli:z] 请
+                                                                                        
+welcome ['welkəm] adj.受欢迎的
+                                                                                        
+would [wud] 愿意 
+                                                                                        
+tea [ti:] n. 茶"
+        android:textSize="15sp"
+        android:textColor="@color/blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+
+</LinearLayout>

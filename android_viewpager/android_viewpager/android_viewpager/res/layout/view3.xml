@@ -4,8 +4,74 @@
     android:layout_height="match_parent"
     android:background="@drawable/login"
     android:orientation="vertical" >
+<Button
+        android:id="@+id/view3_one"
+        android:text="@string/view3_one"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+         android:id="@+id/view3_two"
+        android:text="@string/view3_two"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        
+        />
+    <Button
+        android:id="@+id/view3_three"
+        android:text="@string/view3_three"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        />
 
-    <TextView
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_four" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_five" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_six" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_seven" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_eight" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_nine" />
+    <Button
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:text="@string/view3_ten" />
+    <!-- <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/qidai" />
@@ -15,6 +81,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="400dp"
         android:text="@string/signatrue"
-         />
+         /> -->
 
 </LinearLayout>

@@ -39,4 +39,30 @@
  	<string name="signatrue">☆   英语学习助手1.0 \n© 2015 Z0fr3y All Rights Reserved</string>
  	<string name="qidai">☆ 敬请期待......</string>
  	<string name="fenxiang">☆分享app~</string>
+ 	
+ 	<string name="kewen1">☆	   1  Lesson One</string>
+ 	<string name="kewen2">☆	   2  Lesson Two</string>
+ 	<string name="kewen3">☆	   3  Lesson Three</string>
+ 	<string name="kewen4">☆	   4  Lesson Four</string>
+ 	<string name="kewen5">☆	   5  Lesson Five</string>
+ 	<string name="kewen6">☆	   6  Lesson Six</string>
+ 	<string name="kewen7">☆	   7  Lesson Seven</string>
+ 	<string name="kewen8">☆	   8  Lesson Eight</string>
+ 	<string name="kewen9">☆	   9  Lesson Nine</string>
+ 	<string name="kewen10">☆	   10  Lesson Ten</string>
+ 	
+ 	
+ 	<string name="view3_one">☆	1   Listen_Read one</string>
+ 	<string name="view3_two">☆	2   Listen_Read Two</string>
+    <string name="view3_three">☆	 3   Listen_Read Three </string>
+    <string name="view3_four">☆	 4   Listen_Read Four</string>
+    <string name="view3_five">☆	 5   Listen_Read Five</string>
+    <string name="view3_six">☆	 6   Listen_Read Six</string>
+    <string name="view3_seven">☆	 7   Listen_Read Seven</string>
+    <string name="view3_eight">☆	 8   Listen_Read Eight</string>
+    <string name="view3_nine">☆	 9   Listen_Read Nine</string>
+    <string name="view3_ten">☆	 10   Listen_ReadTen</string>
+ 	
+ 	
+ 	
 </resources>

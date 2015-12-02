@@ -4,102 +4,99 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/login" >
-    <!-- <android.support.v4.view.ViewPager
-        android:id="@+id/pager"
-        android:layout_width="wrap_content"
+     <Button
+        android:id="@+id/kewenButton1"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center" >
+        android:text="@string/kewen1"
 
-        <android.support.v4.view.PagerTabStrip
-            android:id="@+id/tab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-        </android.support.v4.view.PagerTabStrip>
-        
-
-        <android.support.v4.view.PagerTitleStrip
-            android:id="@+id/pagertitle"
-            android:layout_width="fill_parent"
-            android:layout_height="45dp"
-            android:layout_gravity="bottom"
-             />
-    </android.support.v4.view.ViewPager> -->
-    <Button
-        android:id="@+id/button11"
-        android:text="@string/one"
-        android:background="@drawable/gray_bg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        
-        />
-    <Button
-        android:id="@+id/view1_two"
-        
-        android:text="@string/two"
-        android:background="@drawable/gray_bg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0px"
-        
-        />
-    <Button
-        android:id="@+id/view1_three"
-        android:text="@string/three"
-        android:background="@drawable/gray_bg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0px"
-        />
+         />
 
     <Button
+        android:id="@+id/kewenButton2"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen2"
         android:layout_marginTop="0px"
-        android:text="@string/four" />
+         />
+
     <Button
+        android:id="@+id/kewenButton3"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen3"
         android:layout_marginTop="0px"
-        android:text="@string/five" />
+         />
+
     <Button
+        android:id="@+id/kewenButton4"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen4"
         android:layout_marginTop="0px"
-        android:text="@string/six" />
+         />
     <Button
+        android:id="@+id/kewenButton5"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen5"
         android:layout_marginTop="0px"
-        android:text="@string/seven" />
+         />
     <Button
+        android:id="@+id/kewenButton6"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen6"
         android:layout_marginTop="0px"
-        android:text="@string/eight" />
+         />
     <Button
+        android:id="@+id/kewenButton7"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen7"
         android:layout_marginTop="0px"
-        android:text="@string/nine" />
+         />
     <Button
+        android:id="@+id/kewenButton8"
         android:background="@drawable/gray_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/kewen8"
         android:layout_marginTop="0px"
-        android:text="@string/ten" />
+         />
+    <Button
+        android:id="@+id/kewenButton9"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kewen9"
+        android:layout_marginTop="0px"
+         />
+    <Button
+        android:id="@+id/kewenButton10"
+        android:background="@drawable/gray_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kewen10"
+        android:layout_marginTop="0px"
+         />
+    
+
+
     <!-- <Button
-        android:id="@+id/share_sina"
+        android:id="@+id/button1"
         android:background="@drawable/gray_bg"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0px"
-        android:layout_gravity="right|bottom"
-        android:text="分享app~" /> -->
+        android:layout_gravity="bottom|center_vertical"
+        android:text="返回" /> -->
+    
 
 </LinearLayout>
