@@ -30,10 +30,7 @@ import android.widget.Toast;
 				setContentView(R.layout.danc);
 				
 				Button ruler = (Button) findViewById(R.id.ruler_fayin);
-				//Button pen = (Button) findViewById(R.id.pen_fayin);
-				//Button pencil = (Button) findViewById(R.id.pencil_fayin);
-				//Button eraser = (Button) findViewById(R.id.eraser_fayin);
-				//Button crayon = (Button) findViewById(R.id.crayon_fayin);
+				
 				soundpool = new SoundPool(2,
 						AudioManager.STREAM_SYSTEM, 0);	//创建一个SoundPool对象，该对象可以容纳5个音频流
 				soundmap.put(1, soundpool.load(this, R.raw.ruler, 1));

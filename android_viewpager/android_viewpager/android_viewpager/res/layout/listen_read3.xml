@@ -14,22 +14,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/blue"
-        android:text="                    LISTEN ONE"
+        android:text="                    LISTEN THREE"
         />
-<TextView 
+ <TextView 
         android:id="@+id/listen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="listen :"
-        />    	
+        />	
 <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:textColor="@color/orange"
         android:textSize="15sp"
-        android:text="          Louis got a new book. The book was about animals. Louis loved animals. The book had lots of pictures. It had pictures of dogs and cats. It had pictures of cows and pigs. It had pictures of chickens and rabbits. It had pictures of squirrels and birds. Louis looked at the pictures on the first page. Then he turned the page. He looked at the pictures on the second page. Then he turned the page again. The book had 30 pages in it. Louis looked at all the pictures on all the pages.
-                                                                                                                                                                                   "
+        android:text="           Susan likes to eat apples. She likes to eat big red apples. She likes to wear a blue hat. She wears a big blue hat on her head. She wears a hat and eats an apple. She drinks some water from a white cup. Susan drinks water and eats apples. She doesn’t cut the apple with a knife. A knife is sharp. She just eats the apple. She holds the apple in her hand. She bites into the apple with her teeth. She licks her lips. She drinks more water. She wipes her mouth with her hand."                                                                                                               
         android:textAppearance="?android:attr/textAppearanceLarge" />
 <TextView 
         android:id="@+id/kewen"
@@ -40,12 +39,11 @@
 <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:textColor="@color/orange"
         android:textSize="15sp"
-        android:text="           路易斯得到一本新书。这是本关于动物的书。路易斯很喜欢动物。这本书里有很多图片。里面有各类狗和猫的图片。里面有各类牛和猪的图片。里面有各类鸡和兔子的图片。里面有各类松鼠和鸟的图片。路易斯看看第一页上的图片。然后他翻到下一页。他看看第二页上的图片。接着他翻到下一页。这本书有30页。路易斯看了所有页上的所有图片。"                                                                     
+        android:text="           苏珊喜欢吃苹果。她喜欢吃又大又红的苹果。她喜欢带一顶蓝色帽子。她头上戴了一顶大大的蓝色帽子。她戴着帽子吃着苹果。她用白色杯子喝了点水。苏珊一边喝水一边吃苹果。她没有用水果刀切苹果。水果刀太锋利。她只是吃着苹果。她把苹果拿在手里。她用牙咬苹果。她舔舔嘴唇。她又喝了点水。她用手擦擦嘴。"                                                                     
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
 <TextView 
         android:id="@+id/ting4"
         android:layout_width="match_parent"
@@ -84,11 +82,6 @@
         
     </TableLayout>
 
-<TextView
-    android:paddingTop="40px"
-    android:id="@+id/textView3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/signatrue" />
+
 
 </LinearLayout>

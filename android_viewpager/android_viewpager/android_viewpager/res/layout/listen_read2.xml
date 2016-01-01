@@ -14,22 +14,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/blue"
-        android:text="                    LISTEN ONE"
+        android:text="                    LISTEN TWO"
         />
-<TextView 
+ <TextView 
         android:id="@+id/listen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="listen :"
-        />    	
+        />	
 <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:textColor="@color/orange"
         android:textSize="15sp"
-        android:text="          Louis got a new book. The book was about animals. Louis loved animals. The book had lots of pictures. It had pictures of dogs and cats. It had pictures of cows and pigs. It had pictures of chickens and rabbits. It had pictures of squirrels and birds. Louis looked at the pictures on the first page. Then he turned the page. He looked at the pictures on the second page. Then he turned the page again. The book had 30 pages in it. Louis looked at all the pictures on all the pages.
-                                                                                                                                                                                   "
+        android:text="           Tracy looked at the flag. The flag is red, white, and blue. It has 50 white stars. The white stars are on a blue square. The flag has six white stripes. It has seven red stripes. All the stripes are horizontal. They are not vertical. The stripes do not go up and down. They go from left to right. Tracy loves her flag. It is the flag of her country. It is a pretty flag. No other flag has 50 stars. No other flag has 13 stripes.
+                                                                                                                                                                            "
         android:textAppearance="?android:attr/textAppearanceLarge" />
 <TextView 
         android:id="@+id/kewen"
@@ -43,9 +43,8 @@
         android:layout_height="150dp"
         android:textColor="@color/orange"
         android:textSize="15sp"
-        android:text="           路易斯得到一本新书。这是本关于动物的书。路易斯很喜欢动物。这本书里有很多图片。里面有各类狗和猫的图片。里面有各类牛和猪的图片。里面有各类鸡和兔子的图片。里面有各类松鼠和鸟的图片。路易斯看看第一页上的图片。然后他翻到下一页。他看看第二页上的图片。接着他翻到下一页。这本书有30页。路易斯看了所有页上的所有图片。"                                                                     
+        android:text="           特蕾西看看旗子。旗子是由红色，白色和蓝色组成的。它有50颗白色的星星。白色星星都在一个蓝色方块里。旗子有6条白色条纹。它有7条红色条纹。所有的条纹都是水平的。他们不是垂直的。条纹没有直上直下。 它们从左向右排列。特雷西很爱她的旗子。那是她国家的国旗。国旗很漂亮。没有其它国家的国旗有50颗星星。没有其它国家的国旗有13个条纹。"                                                                     
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
 <TextView 
         android:id="@+id/ting4"
         android:layout_width="match_parent"
@@ -84,11 +83,6 @@
         
     </TableLayout>
 
-<TextView
-    android:paddingTop="40px"
-    android:id="@+id/textView3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/signatrue" />
+
 
 </LinearLayout>

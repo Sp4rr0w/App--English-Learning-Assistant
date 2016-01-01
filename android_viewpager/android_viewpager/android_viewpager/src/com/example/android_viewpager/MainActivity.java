@@ -66,7 +66,6 @@ public class MainActivity extends Activity implements OnPageChangeListener{
 			
 			}
 		});*/
-		View view1 = View.inflate(this, R.layout.view1, null);
         
 
        /* mContext=this;
@@ -87,6 +86,7 @@ public class MainActivity extends Activity implements OnPageChangeListener{
 				
 			}
 		});*/
+		View view1 = View.inflate(this, R.layout.view1, null);
         View view2 = View.inflate(this, R.layout.view2, null);
         View view3 = View.inflate(this, R.layout.view3, null);
         
@@ -204,7 +204,7 @@ public class MainActivity extends Activity implements OnPageChangeListener{
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Intent intent=new Intent(MainActivity.this,listen_read1.class);
+				Intent intent=new Intent(MainActivity.this,listen_read2.class);
 				//intent.setAction("aaa.bbb.ccc");
 				intent.addCategory("android.intent.category.DEFAULT");
 				startActivity(intent);
@@ -217,7 +217,7 @@ public class MainActivity extends Activity implements OnPageChangeListener{
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Intent intent=new Intent(MainActivity.this,listen_read1.class);
+				Intent intent=new Intent(MainActivity.this,listen_read3.class);
 				//intent.setAction("aaa.bbb.ccc");
 				intent.addCategory("android.intent.category.DEFAULT");
 				startActivity(intent);

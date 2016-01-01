@@ -6,7 +6,7 @@
     android:background="@drawable/login" >
     <TextView 
         android:text="crayon"
-        android:paddingTop="50px"
+        android:paddingTop="150px"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:textSize="40sp"

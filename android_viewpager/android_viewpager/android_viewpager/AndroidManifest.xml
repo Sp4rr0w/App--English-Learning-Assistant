@@ -67,6 +67,14 @@
             android:name=".listen_read1"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".listen_read2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".listen_read3"
+            android:label="@string/app_name" >
+        </activity>
         
         
          
